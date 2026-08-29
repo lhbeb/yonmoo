@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import { ArrowRight, Zap, Users, Truck, MapPin, Handshake, Gift, Mail, MessageSquare, CheckCircle2, Clock } from 'lucide-react';
+import LiveChatButton from '@/components/LiveChatButton';
 
 export default function SellPage() {
   return (
@@ -283,14 +284,7 @@ export default function SellPage() {
                 </div>
               </a>
 
-              <div
-                onClick={() => {
-                  if (typeof window !== 'undefined' && (window as any).tidioChatApi) {
-                    (window as any).tidioChatApi.open();
-                  }
-                }}
-                className="group rounded-2xl border border-gray-200 bg-[#FAF8FC] p-6 transition-all hover:border-[#451e84] hover:shadow-md cursor-pointer"
-              >
+              <LiveChatButton className="text-left w-full group rounded-2xl border border-gray-200 bg-[#FAF8FC] p-6 transition-all hover:border-[#451e84] hover:shadow-md cursor-pointer">
                 <div className="flex items-start gap-4">
                   <div className="flex h-12 w-12 flex-shrink-0 items-center justify-center rounded-xl bg-[#F4F0FB]">
                     <MessageSquare className="h-6 w-6 text-[#451e84]" />
@@ -303,7 +297,7 @@ export default function SellPage() {
                     </p>
                   </div>
                 </div>
-              </div>
+              </LiveChatButton>
             </div>
 
             <div className="max-w-4xl mx-auto mt-5 rounded-2xl border border-[#16033d] bg-[#16033d] p-6 text-white shadow-md">

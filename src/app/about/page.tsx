@@ -2,6 +2,7 @@ import React from 'react';
 import type { Metadata } from 'next';
 import Link from 'next/link';
 import AboutNotifier from '@/components/AboutNotifier';
+import LiveChatButton from '@/components/LiveChatButton';
 import {
   Users,
   Shield,
@@ -402,17 +403,9 @@ export default function AboutPage() {
               </div>
               <div className="ml-8 space-y-2 text-gray-600">
                 <div className="font-medium text-[#262626]">Available 24/7</div>
-                <button
-                  type="button"
-                  onClick={() => {
-                    if (typeof window !== 'undefined' && (window as any).tidioChatApi) {
-                      (window as any).tidioChatApi.open();
-                    }
-                  }}
-                  className="inline-flex items-center text-sm font-semibold text-[#451e84] hover:underline cursor-pointer"
-                >
+                <LiveChatButton className="inline-flex items-center text-sm font-semibold text-[#451e84] hover:underline cursor-pointer">
                   Open Live Chat →
-                </button>
+                </LiveChatButton>
               </div>
             </div>
             <div className="bg-[#F8FAFC] rounded-xl p-6 border border-[#451e84]/10">
