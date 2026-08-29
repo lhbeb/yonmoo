@@ -72,7 +72,7 @@ const Footer = () => {
               </div>
               <div className="pt-2">
                 <a
-                  href="https://instagram.com/yomnoo"
+                  href="https://instagram.com/helloyonmoo"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleInstagramClick}
