@@ -307,10 +307,11 @@ export default function SellPage() {
                 </div>
                 <div>
                   <p className="text-sm font-bold uppercase tracking-[0.14em] text-[#C4B5FD]">Business Hours</p>
-                  <div className="mt-2 space-y-1 text-base text-white/90">
-                    <p>Monday to Friday: 9:00 AM to 5:00 PM EST</p>
-                    <p>Saturday: 10:00 AM to 3:00 PM EST</p>
+                  <div className="mt-2 space-y-1 text-sm text-white/90">
+                    <p>Monday to Friday: 9:00 AM – 5:00 PM EST</p>
+                    <p>Saturday: 10:00 AM – 3:00 PM EST</p>
                     <p>Sunday: Closed</p>
+                    <p className="text-xs text-[#C4B5FD] font-semibold pt-1">💬 Live Chat Support: Available 24/7</p>
                   </div>
                 </div>
               </div>

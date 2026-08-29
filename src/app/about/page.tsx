@@ -423,10 +423,11 @@ export default function AboutPage() {
                 <Clock className="h-5 w-5 text-[#451e84]" />
                 <div className="font-bold text-[#262626]">Business Hours:</div>
               </div>
-              <div className="text-gray-600 ml-8 space-y-1">
-                <div>Monday to Friday, 9:00 AM to 5:00 PM EST</div>
-                <div>Saturday, 10:00 AM to 3:00 PM EST</div>
-                <div>Sunday, Closed</div>
+              <div className="text-gray-600 ml-8 space-y-1 text-sm">
+                <div>Monday to Friday: 9:00 AM – 5:00 PM EST</div>
+                <div>Saturday: 10:00 AM – 3:00 PM EST</div>
+                <div>Sunday: Closed</div>
+                <div className="text-xs text-[#451e84] font-medium pt-1">💬 Live Chat Support: Available 24/7</div>
               </div>
             </div>
           </div>

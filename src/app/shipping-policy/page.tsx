@@ -65,36 +65,7 @@ export default function ShippingPolicyPage() {
         'url': 'https://www.yomnoo.com/shipping-policy',
         'name': 'Shipping Policy | Yomnoo',
         'description':
-          'Yomnoo Shipping Policy: Free standard shipping to the UK, US, and Canada. Same-day processing for orders placed before 2:00 PM EST.',
-      },
-      {
-        '@type': 'OfferShippingDetails',
-        '@id': 'https://www.yomnoo.com/shipping-policy#shipping-uk',
-        'shippingDestination': {
-          '@type': 'DefinedRegion',
-          'addressCountry': 'GB',
-        },
-        'shippingRate': {
-          '@type': 'MonetaryAmount',
-          'value': 0,
-          'currency': 'GBP',
-        },
-        'deliveryTime': {
-          '@type': 'ShippingDeliveryTime',
-          'handlingTime': {
-            '@type': 'QuantitativeValue',
-            'minValue': 0,
-            'maxValue': 1,
-            'unitCode': 'DAY',
-          },
-          'transitTime': {
-            '@type': 'QuantitativeValue',
-            'minValue': 5,
-            'maxValue': 8,
-            'unitCode': 'DAY',
-          },
-          'cutoffTime': '14:00:00-05:00',
-        },
+          'Official Yomnoo Shipping Policy. Free standard shipping across the United States. Same-day processing for orders placed before 2:00 PM EST (Monday to Friday).',
       },
       {
         '@type': 'OfferShippingDetails',
@@ -118,37 +89,8 @@ export default function ShippingPolicyPage() {
           },
           'transitTime': {
             '@type': 'QuantitativeValue',
-            'minValue': 5,
-            'maxValue': 8,
-            'unitCode': 'DAY',
-          },
-          'cutoffTime': '14:00:00-05:00',
-        },
-      },
-      {
-        '@type': 'OfferShippingDetails',
-        '@id': 'https://www.yomnoo.com/shipping-policy#shipping-ca',
-        'shippingDestination': {
-          '@type': 'DefinedRegion',
-          'addressCountry': 'CA',
-        },
-        'shippingRate': {
-          '@type': 'MonetaryAmount',
-          'value': 0,
-          'currency': 'CAD',
-        },
-        'deliveryTime': {
-          '@type': 'ShippingDeliveryTime',
-          'handlingTime': {
-            '@type': 'QuantitativeValue',
-            'minValue': 0,
-            'maxValue': 1,
-            'unitCode': 'DAY',
-          },
-          'transitTime': {
-            '@type': 'QuantitativeValue',
-            'minValue': 7,
-            'maxValue': 10,
+            'minValue': 4,
+            'maxValue': 7,
             'unitCode': 'DAY',
           },
           'cutoffTime': '14:00:00-05:00',

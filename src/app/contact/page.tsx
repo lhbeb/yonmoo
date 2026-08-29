@@ -245,10 +245,11 @@ export default function ContactPage() {
                     </div>
                     <div className="border-t border-gray-200 pt-6">
                       <h3 className="font-medium text-[#262626] mb-2">Business Hours</h3>
-                      <ul className="text-gray-600 space-y-1">
-                        <li>Monday - Friday: 9:00 AM - 5:00 PM EST</li>
-                        <li>Saturday: 10:00 AM - 3:00 PM EST</li>
+                      <ul className="text-gray-600 space-y-1 text-sm">
+                        <li>Monday to Friday: 9:00 AM – 5:00 PM EST</li>
+                        <li>Saturday: 10:00 AM – 3:00 PM EST</li>
                         <li>Sunday: Closed</li>
+                        <li className="text-xs text-[#451e84] font-medium pt-1">💬 Live Chat Support: Available 24/7</li>
                       </ul>
                     </div>
                   </div>

@@ -151,9 +151,13 @@ const PrivacyPolicyPage = () => (
               <div className="text-gray-600">4205 W Glenrosa Ave, Phoenix, AZ 85019, USA</div>
             </div>
             <div>
-              <div className="font-medium text-[#262626] mb-1">Hours:</div>
-              <div className="text-gray-600">Monday to Friday: 9:00 AM to 5:00 PM EST</div>
-              <div className="text-gray-600">Saturday: 10:00 AM to 3:00 PM EST</div>
+              <div className="font-medium text-[#262626] mb-1">Business Hours:</div>
+              <div className="text-gray-600 space-y-1 text-sm">
+                <div>Monday to Friday: 9:00 AM – 5:00 PM EST</div>
+                <div>Saturday: 10:00 AM – 3:00 PM EST</div>
+                <div>Sunday: Closed</div>
+                <div className="text-xs text-[#451e84] font-medium pt-1">💬 Live Chat Support: Available 24/7</div>
+              </div>
             </div>
           </div>
         </div>
