@@ -137,29 +137,6 @@ const PrivacyPolicyPage = () => (
           <p className="mb-4">
             If you have questions about this Privacy Policy or need help with your privacy rights, please contact us:
           </p>
-          <div className="bg-gray-50 rounded-lg p-6 space-y-3">
-            <div>
-              <div className="font-medium text-[#262626] mb-1">Support:</div>
-              <div className="text-gray-600">Live Chat available 24/7 on website</div>
-            </div>
-            <div>
-              <div className="font-medium text-[#262626] mb-1">Email:</div>
-              <div className="text-gray-600">contact@yomnoo.com</div>
-            </div>
-            <div>
-              <div className="font-medium text-[#262626] mb-1">US Warehouse &amp; Office Address:</div>
-              <div className="text-gray-600">4205 W Glenrosa Ave, Phoenix, AZ 85019, USA</div>
-            </div>
-            <div>
-              <div className="font-medium text-[#262626] mb-1">Business Hours:</div>
-              <div className="text-gray-600 space-y-1 text-sm">
-                <div>Monday to Friday: 9:00 AM – 5:00 PM EST</div>
-                <div>Saturday: 10:00 AM – 3:00 PM EST</div>
-                <div>Sunday: Closed</div>
-                <div className="text-xs text-[#451e84] font-medium pt-1">💬 Live Chat Support: Available 24/7</div>
-              </div>
-            </div>
-          </div>
         </div>
         <LegalBusinessDetails />
       </div>

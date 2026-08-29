@@ -191,7 +191,7 @@ export default function ShippingPolicyPage() {
           <div className="mt-6 grid gap-4 sm:grid-cols-3">
             <div className="flex items-center gap-3 rounded-xl bg-[#F8FAFC] border border-gray-100 p-4">
               <MapPin className="h-5 w-5 text-[#451e84]" />
-              <span className="text-sm font-medium text-gray-900">UK, US & Canada</span>
+              <span className="text-sm font-medium text-gray-900">United States</span>
             </div>
             <div className="flex items-center gap-3 rounded-xl bg-[#F8FAFC] border border-gray-100 p-4">
               <Mail className="h-5 w-5 text-[#451e84]" />

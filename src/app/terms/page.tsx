@@ -116,13 +116,12 @@ const TermsPage = () => {
           <div>
             <h2 className="text-3xl font-bold text-[#262626] mt-10 mb-4">6. Shipping Policy</h2>
             <p className="mb-4">
-              Shipping applies to all orders within the United States and Canada.
+              Shipping applies to all orders within the United States.
             </p>
             <ul className="list-disc pl-6 space-y-2">
               <li>Same-day shipping is available for orders placed before 2:00 PM EST.</li>
               <li>Standard processing time is 1 business day.</li>
               <li>Domestic USA delivery time is typically 5 to 8 business days.</li>
-              <li>Canada delivery time is typically 7 to 10 business days.</li>
               <li>All orders qualify for free shipping.</li>
               <li>Tracking information is sent to the customer via email once the order ships.</li>
             </ul>
@@ -194,29 +193,6 @@ const TermsPage = () => {
             <p className="mb-4">
               If you have questions about these Terms of Service, please contact us.
             </p>
-            <div className="bg-gray-50 rounded-lg p-6 space-y-3">
-              <div>
-                <div className="font-medium text-[#262626] mb-1">Support:</div>
-                <div className="text-gray-600">Live Chat available 24/7 on website</div>
-              </div>
-              <div>
-                <div className="font-medium text-[#262626] mb-1">Email:</div>
-                <div className="text-gray-600">contact@yomnoo.com</div>
-              </div>
-              <div>
-                <div className="font-medium text-[#262626] mb-1">US Warehouse &amp; Office:</div>
-                <div className="text-gray-600">4205 W Glenrosa Ave, Phoenix, AZ 85019, USA</div>
-              </div>
-              <div>
-                <div className="font-medium text-[#262626] mb-1">Business Hours:</div>
-                <div className="text-gray-600 space-y-1 text-sm">
-                  <div>Monday to Friday: 9:00 AM – 5:00 PM EST</div>
-                  <div>Saturday: 10:00 AM – 3:00 PM EST</div>
-                  <div>Sunday: Closed</div>
-                  <div className="text-xs text-[#451e84] font-medium pt-1">💬 Live Chat Support: Available 24/7</div>
-                </div>
-              </div>
-            </div>
           </div>
           <LegalBusinessDetails />
         </div>
