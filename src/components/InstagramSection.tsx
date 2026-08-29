@@ -36,12 +36,7 @@ const InstagramSection: React.FC = () => {
 
                 {/* Profile Details */}
                 <div className="flex-grow">
-                  <div className="flex items-center gap-1.5 mb-0.5">
-                    <h3 className="font-bold text-[#262626] text-lg sm:text-xl">@helloyonmoo</h3>
-                    <svg className="w-4 h-4 text-[#3897f0] fill-current" viewBox="0 0 24 24">
-                      <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-                    </svg>
-                  </div>
+                  <h3 className="font-bold text-[#262626] text-lg sm:text-xl mb-0.5">@helloyonmoo</h3>
                   <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-500 mb-2">
                     <span className="font-medium text-gray-700">Yomnoo</span>
                     <span>•</span>

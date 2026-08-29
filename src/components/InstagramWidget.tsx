@@ -33,12 +33,7 @@ const InstagramWidget: React.FC = () => {
 
           {/* Profile Info */}
           <div className="flex-grow">
-            <div className="flex items-center gap-1.5 mb-1">
-              <h3 className="font-bold text-[#262626] text-xl">@helloyonmoo</h3>
-              <svg className="w-4 h-4 text-[#3897f0] fill-current" viewBox="0 0 24 24">
-                <path d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm-2 15l-5-5 1.41-1.41L10 14.17l7.59-7.59L19 8l-9 9z" />
-              </svg>
-            </div>
+            <h3 className="font-bold text-[#262626] text-xl mb-1">@helloyonmoo</h3>
             <p className="text-gray-600 text-sm mb-3">Yomnoo • Shopping &amp; retail</p>
 
             {/* Statistics */}
