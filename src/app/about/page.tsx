@@ -26,7 +26,7 @@ import {
 export const metadata: Metadata = {
   title: 'About Us | Yomnoo',
   description:
-    'Learn about Yomnoo, a United States based ecommerce store located in Modesto, California. Smart sourcing, quality products, fair prices.',
+    'Learn about Yomnoo, a United States based ecommerce store located in Phoenix, Arizona. Smart sourcing, quality products, fair prices.',
 };
 
 export default function AboutPage() {
@@ -39,7 +39,7 @@ export default function AboutPage() {
         'url': 'https://www.yomnoo.com/about',
         'name': 'About Yomnoo',
         'description':
-          'Yomnoo is a United States based e-commerce retailer operating in Modesto, California.',
+          'Yomnoo is a United States based e-commerce retailer operating in Phoenix, Arizona.',
         'mainEntity': {
           '@id': 'https://www.yomnoo.com/#organization',
         },
@@ -55,10 +55,10 @@ export default function AboutPage() {
         'address': [
           {
             '@type': 'PostalAddress',
-            'streetAddress': '415 Codoni Ave',
-            'addressLocality': 'Modesto',
-            'addressRegion': 'CA',
-            'postalCode': '95357',
+            'streetAddress': '4205 W Glenrosa Ave',
+            'addressLocality': 'Phoenix',
+            'addressRegion': 'AZ',
+            'postalCode': '85019',
             'addressCountry': 'US',
           },
         ],
@@ -92,7 +92,7 @@ export default function AboutPage() {
           </div>
           <h1 className="text-4xl sm:text-5xl font-bold mb-6 tracking-tight text-white">About Yomnoo</h1>
           <p className="text-lg sm:text-xl text-white/85 leading-relaxed max-w-3xl mx-auto">
-            Welcome to Yomnoo, a United States based ecommerce store with headquarters and fulfillment in Modesto, California. We help smart shoppers find quality products at fair and transparent prices across electronics, photography gear, fashion, electric mobility, tools, and home equipment.
+            Welcome to Yomnoo, a United States based ecommerce store with headquarters and fulfillment in Phoenix, Arizona. We help smart shoppers find quality products at fair and transparent prices across electronics, photography gear, fashion, electric mobility, tools, and home equipment.
           </p>
         </div>
       </div>
@@ -105,14 +105,14 @@ export default function AboutPage() {
               <div className="flex h-12 w-12 items-center justify-center rounded-xl bg-[#F4F0FB] text-[#451e84]">
                 <MapPin className="h-6 w-6" />
               </div>
-              <h2 className="mt-4 text-2xl font-bold text-[#262626]">US Warehouse &amp; Fulfillment</h2>
+              <h2 className="mt-4 text-2xl font-bold text-[#262626]">US Warehouse &amp; Office</h2>
             </div>
             <div className="space-y-4 text-base leading-7 text-gray-700">
               <p>
-                Yomnoo is proudly headquartered and operated in the United States. Our fulfillment center in Modesto, California allows us to support fast nationwide shipping, quality inspection, secure product handling, and convenient local pickup.
+                Yomnoo is proudly headquartered and operated in the United States. Our facility in Phoenix, Arizona allows us to support fast nationwide shipping, quality inspection, secure product handling, and convenient local pickup.
               </p>
               <p>
-                Eligible products can also be collected locally from our warehouse in Modesto, California. Our team confirms the available pickup address and collection time for each order before you arrive.
+                Eligible products can also be collected locally from our warehouse in Phoenix, Arizona. Our team confirms the available pickup address and collection time for each order before you arrive.
               </p>
               <Link href="/local-pickup" className="inline-flex font-semibold text-[#451e84] hover:text-[#361668] hover:underline">
                 View the local pickup guide →
@@ -395,9 +395,9 @@ export default function AboutPage() {
             <div className="bg-[#FAF8FC] rounded-xl p-6 border border-gray-200">
               <div className="flex items-center gap-3 mb-3">
                 <MapPin className="h-5 w-5 text-[#451e84]" />
-                <div className="font-bold text-[#262626]">Warehouse Location</div>
+                <div className="font-bold text-[#262626]">Warehouse &amp; Office Location</div>
               </div>
-              <div className="text-gray-600 ml-8">415 Codoni Ave, Modesto, CA 95357, USA</div>
+              <div className="text-gray-600 ml-8">4205 W Glenrosa Ave, Phoenix, AZ 85019, USA</div>
             </div>
             <div className="bg-[#FAF8FC] rounded-xl p-6 border border-gray-200">
               <div className="flex items-center gap-3 mb-3">

@@ -48,10 +48,10 @@ export default function ContactPage() {
         'address': [
           {
             '@type': 'PostalAddress',
-            'streetAddress': '415 Codoni Ave',
-            'addressLocality': 'Modesto',
-            'addressRegion': 'CA',
-            'postalCode': '95357',
+            'streetAddress': '4205 W Glenrosa Ave',
+            'addressLocality': 'Phoenix',
+            'addressRegion': 'AZ',
+            'postalCode': '85019',
             'addressCountry': 'US',
           },
         ],
@@ -214,8 +214,8 @@ export default function ContactPage() {
                     <div className="flex items-start">
                       <MapPin className="h-6 w-6 text-[#451e84] mt-1 shrink-0" />
                       <div className="ml-4">
-                        <h3 className="font-medium text-[#262626]">US Warehouse &amp; Fulfillment</h3>
-                        <p className="text-gray-600 mt-1">415 Codoni Ave, Modesto, CA 95357, USA</p>
+                        <h3 className="font-medium text-[#262626]">US Warehouse &amp; Office</h3>
+                        <p className="text-gray-600 mt-1">4205 W Glenrosa Ave, Phoenix, AZ 85019, USA</p>
                       </div>
                     </div>
                     <div className="flex items-start">

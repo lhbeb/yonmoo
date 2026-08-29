@@ -14,7 +14,7 @@ export default function LegalBusinessDetails() {
             Warehouse location
           </h2>
           <p className="mt-2 max-w-3xl text-sm leading-6 text-gray-600">
-            Yomnoo is a United States based business fulfilling orders from our main warehouse in Modesto, California.
+            Yomnoo is a United States based business fulfilling orders from our main warehouse and office in Phoenix, Arizona.
           </p>
         </div>
       </div>

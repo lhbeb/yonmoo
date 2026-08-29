@@ -41,7 +41,7 @@ const policySections = [
       'We ship to all 50 states across the United States',
       'PO boxes supported for standard domestic deliveries',
       'APO/FPO/DPO military addresses fully supported',
-      'Local pickup available at our Modesto, California warehouse',
+      'Local pickup available at our Phoenix, Arizona warehouse and office',
     ],
   },
   {

@@ -204,8 +204,8 @@ const TermsPage = () => {
                 <div className="text-gray-600">contact@yomnoo.com</div>
               </div>
               <div>
-                <div className="font-medium text-[#262626] mb-1">US Warehouse &amp; Fulfillment:</div>
-                <div className="text-gray-600">415 Codoni Ave, Modesto, CA 95357, USA</div>
+                <div className="font-medium text-[#262626] mb-1">US Warehouse &amp; Office:</div>
+                <div className="text-gray-600">4205 W Glenrosa Ave, Phoenix, AZ 85019, USA</div>
               </div>
               <div>
                 <div className="font-medium text-[#262626] mb-1">Hours:</div>

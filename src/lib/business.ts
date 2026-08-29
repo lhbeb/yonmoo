@@ -3,9 +3,9 @@ export const BUSINESS_DETAILS = {
   domain: 'yomnoo.com',
   warehouses: [
     {
-      label: 'US warehouse and fulfillment',
-      street: '415 Codoni Ave',
-      cityRegionPostal: 'Modesto, CA 95357',
+      label: 'US warehouse and office',
+      street: '4205 W Glenrosa Ave',
+      cityRegionPostal: 'Phoenix, AZ 85019',
       country: 'United States',
     },
   ],

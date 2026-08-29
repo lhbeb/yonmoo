@@ -177,10 +177,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 ],
                 "address": {
                   "@type": "PostalAddress",
-                  "streetAddress": "415 Codoni Ave",
-                  "addressLocality": "Modesto",
-                  "addressRegion": "CA",
-                  "postalCode": "95357",
+                  "streetAddress": "4205 W Glenrosa Ave",
+                  "addressLocality": "Phoenix",
+                  "addressRegion": "AZ",
+                  "postalCode": "85019",
                   "addressCountry": "US"
                 },
                 "hasMerchantReturnPolicy": {

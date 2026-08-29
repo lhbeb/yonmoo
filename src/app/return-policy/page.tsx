@@ -283,8 +283,8 @@ export default function ReturnPolicyPage() {
                 </div>
                 <div className="text-sm text-gray-600 pl-7 space-y-2">
                   <div>
-                    <strong className="text-gray-900 block">US Warehouse:</strong>
-                    415 Codoni Ave, Modesto, CA 95357, USA
+                    <strong className="text-gray-900 block">US Warehouse &amp; Office:</strong>
+                    4205 W Glenrosa Ave, Phoenix, AZ 85019, USA
                   </div>
                 </div>
               </div>

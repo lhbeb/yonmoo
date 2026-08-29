@@ -32,7 +32,7 @@ export default function LocalPickupPage() {
               Pick up your Yomnoo order with confidence
             </h1>
             <p className="mt-4 max-w-3xl text-sm leading-7 text-white/85 sm:text-base">
-              Eligible products can be collected from our location in Modesto, California. This page covers what to expect, what to bring, and how collection works once your order is ready.
+              Eligible products can be collected from our facility in Phoenix, Arizona. This page covers what to expect, what to bring, and how collection works once your order is ready.
             </p>
           </section>
 
@@ -102,10 +102,10 @@ export default function LocalPickupPage() {
                     <h2 className="text-lg font-bold text-[#262626]">Pickup location</h2>
                     <div className="mt-4 space-y-4 text-sm leading-7 text-gray-600">
                       <address className="not-italic">
-                        <span className="block font-semibold text-[#262626]">United States Warehouse</span>
-                        415 Codoni Ave
+                        <span className="block font-semibold text-[#262626]">United States Warehouse &amp; Office</span>
+                        4205 W Glenrosa Ave
                         <br />
-                        Modesto, CA 95357
+                        Phoenix, AZ 85019
                         <br />
                         USA
                       </address>
