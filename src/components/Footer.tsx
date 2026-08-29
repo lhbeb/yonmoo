@@ -70,16 +70,17 @@ const Footer = () => {
                   <span>{BUSINESS_DETAILS.warehouses[0].street}, {BUSINESS_DETAILS.warehouses[0].cityRegionPostal}, {BUSINESS_DETAILS.warehouses[0].country}</span>
                 </div>
               </div>
-              <div className="pt-2">
+              <div className="pt-3">
                 <a
                   href="https://instagram.com/helloyonmoo"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleInstagramClick}
-                  className="inline-flex items-center text-[#F8FAFC]/80 hover:text-[#451e84] transition-colors duration-300"
-                  aria-label="Follow us on Instagram"
+                  className="inline-flex items-center gap-2 rounded-lg bg-white/10 px-3.5 py-2 text-sm font-medium text-white hover:bg-white/15 hover:text-[#C4B5FD] transition-all duration-300 border border-white/10"
+                  aria-label="Follow @helloyonmoo on Instagram"
                 >
-                  <Instagram className="h-5 w-5" />
+                  <Instagram className="h-4 w-4 text-[#C4B5FD]" />
+                  <span>@helloyonmoo</span>
                 </a>
               </div>
             </div>
@@ -88,26 +89,26 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold text-white mb-4">Navigation</h3>
             <ul className="space-y-2">
-              <li><Link href="/" className="hover:text-[#451e84] transition-colors duration-300">Home</Link></li>
-              <li><Link href="/#products" className="hover:text-[#451e84] transition-colors duration-300">Products</Link></li>
-              <li><Link href="/#featured" className="hover:text-[#451e84] transition-colors duration-300">Featured</Link></li>
-              <li><Link href="/sell" className="hover:text-[#451e84] transition-colors duration-300">Sell on Yomnoo</Link></li>
-              <li><Link href="/track" className="hover:text-[#451e84] transition-colors duration-300">Track Order</Link></li>
-              <li><Link href="/contact" className="hover:text-[#451e84] transition-colors duration-300">Contact Us</Link></li>
+              <li><Link href="/" className="hover:text-[#C4B5FD] transition-colors duration-300">Home</Link></li>
+              <li><Link href="/#products" className="hover:text-[#C4B5FD] transition-colors duration-300">Products</Link></li>
+              <li><Link href="/#featured" className="hover:text-[#C4B5FD] transition-colors duration-300">Featured</Link></li>
+              <li><Link href="/sell" className="hover:text-[#C4B5FD] transition-colors duration-300">Sell on Yomnoo</Link></li>
+              <li><Link href="/track" className="hover:text-[#C4B5FD] transition-colors duration-300">Track Order</Link></li>
+              <li><Link href="/contact" className="hover:text-[#C4B5FD] transition-colors duration-300">Contact Us</Link></li>
             </ul>
           </div>
 
           <div>
-            <h3 className="text-lg font-semibold text-white mb-4">Policies & Info</h3>
+            <h3 className="text-lg font-semibold text-white mb-4">Policies &amp; Info</h3>
             <ul className="space-y-2">
-              <li><Link href="/privacy-policy" className="hover:text-[#451e84] transition-colors duration-300">Privacy Policy</Link></li>
-              <li><Link href="/terms" className="hover:text-[#451e84] transition-colors duration-300">Terms of Service</Link></li>
-              <li><Link href="/about" className="hover:text-[#451e84] transition-colors duration-300">About Us</Link></li>
-              <li><Link href="/return-policy" className="hover:text-[#451e84] transition-colors duration-300">Refund & Return Policy</Link></li>
-              <li><Link href="/shipping-policy" className="hover:text-[#451e84] transition-colors duration-300">Shipping Policy</Link></li>
-              <li><Link href="/local-pickup" className="hover:text-[#451e84] transition-colors duration-300">Local Pickup Guide</Link></li>
-              <li><Link href="/contact" className="hover:text-[#451e84] transition-colors duration-300">Contact Us</Link></li>
-              <li><Link href="/cookies" className="hover:text-[#451e84] transition-colors duration-300">Cookies Policy</Link></li>
+              <li><Link href="/privacy-policy" className="hover:text-[#C4B5FD] transition-colors duration-300">Privacy Policy</Link></li>
+              <li><Link href="/terms" className="hover:text-[#C4B5FD] transition-colors duration-300">Terms of Service</Link></li>
+              <li><Link href="/about" className="hover:text-[#C4B5FD] transition-colors duration-300">About Us</Link></li>
+              <li><Link href="/return-policy" className="hover:text-[#C4B5FD] transition-colors duration-300">Refund &amp; Return Policy</Link></li>
+              <li><Link href="/shipping-policy" className="hover:text-[#C4B5FD] transition-colors duration-300">Shipping Policy</Link></li>
+              <li><Link href="/local-pickup" className="hover:text-[#C4B5FD] transition-colors duration-300">Local Pickup Guide</Link></li>
+              <li><Link href="/contact" className="hover:text-[#C4B5FD] transition-colors duration-300">Contact Us</Link></li>
+              <li><Link href="/cookies" className="hover:text-[#C4B5FD] transition-colors duration-300">Cookies Policy</Link></li>
             </ul>
           </div>
         </div>
