@@ -108,17 +108,7 @@ export default function LiveChatPage() {
         <div className="absolute bottom-1/4 left-1/4 w-64 h-64 bg-[#16033d]/10 rounded-full blur-3xl" />
 
         <div className={`relative z-10 flex h-[75svh] min-h-[560px] w-full max-w-[500px] flex-col overflow-hidden rounded-2xl border border-slate-100 bg-white shadow-2xl shadow-[#16033d]/10 transition-all duration-700 delay-300 sm:h-[700px] sm:max-h-[80vh] sm:rounded-3xl ${isLoaded ? 'translate-y-0 opacity-100 scale-100' : 'translate-y-12 opacity-0 scale-95'}`}>
-          <div className="bg-slate-50 border-b border-slate-100 p-4 flex items-center justify-between z-20">
-             <div className="flex items-center gap-3">
-               <div className="w-10 h-10 rounded-full bg-[#16033d]/10 flex items-center justify-center text-[#16033d]">
-                  <MessageCircle className="w-5 h-5" />
-               </div>
-               <div>
-                 <h2 className="font-semibold text-slate-800 text-sm">Yomnoo Live Support</h2>
-                 <p className="text-xs text-slate-500">We typically reply in a few minutes</p>
-               </div>
-             </div>
-          </div>
+
           
           <iframe
             src={chatSrc}
