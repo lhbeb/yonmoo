@@ -8,20 +8,12 @@ import type { ShippingData } from '@/lib/shipping';
 
 declare global {
     interface Window {
-        HFChatConfig?: {
-            chatUrl: string;
-            target: string;
-            customerName: string;
-            customerEmail: string;
-            orderId: string;
-            total: string;
-        };
         __hfChatScriptPromise?: Promise<void>;
         __hfChatScriptLoaded?: boolean;
     }
 }
 
-const CHAT_WIDGET_SRC = 'https://chatapppay.vercel.app/widget.js';
+const CHAT_WIDGET_SRC = 'https://chatapppay-rust.vercel.app/widget.js';
 const CHAT_WIDGET_SCRIPT_ID = 'hf-chat-widget-script';
 
 function clearChatTargets() {
@@ -35,7 +27,7 @@ function clearChatTargets() {
     });
 }
 
-function loadChatWidgetScript(forceReload: boolean = false): Promise<void> {
+function loadChatWidgetScript(config: Record<string, string>, forceReload: boolean = false): Promise<void> {
     if (typeof window === 'undefined' || typeof document === 'undefined') {
         return Promise.resolve();
     }
@@ -84,6 +76,17 @@ function loadChatWidgetScript(forceReload: boolean = false): Promise<void> {
         script.id = CHAT_WIDGET_SCRIPT_ID;
         script.src = CHAT_WIDGET_SRC;
         script.async = true;
+        
+        // Apply the new data attributes
+        script.dataset.chatUrl = config.chatUrl;
+        script.dataset.target = config.target;
+        script.dataset.customerName = config.customerName;
+        script.dataset.customerEmail = config.customerEmail;
+        script.dataset.orderId = config.orderId;
+        script.dataset.orderTotal = config.orderTotal;
+        script.dataset.welcomeMessage = config.welcomeMessage;
+        script.dataset.color = config.color;
+
         script.onload = () => {
             script.dataset.loaded = 'true';
             window.__hfChatScriptLoaded = true;
@@ -190,25 +193,26 @@ export default function PaypalInvoiceConfirmation({
         const targetChanged = lastTargetRef.current !== null && lastTargetRef.current !== targetId;
         lastTargetRef.current = targetId;
 
-        window.HFChatConfig = {
-            chatUrl: 'https://chatapppay.vercel.app',
-            target: targetId,
-            customerName,
-            customerEmail: shippingData.email,
-            orderId: widgetOrderId,
-            total: orderTotal,
-        };
-
         if (targetChanged) {
             clearChatTargets();
         }
 
-        loadChatWidgetScript(targetChanged).catch((error) => {
+        const chatConfig = {
+            chatUrl: 'https://chatapppay-rust.vercel.app',
+            target: targetId,
+            customerName,
+            customerEmail: shippingData.email,
+            orderId: widgetOrderId,
+            orderTotal: orderTotal,
+            welcomeMessage: `Hi ${customerName}, your order ${widgetOrderId} is pending payment. Need help?`,
+            color: '#16033d', // Yomnoo branding color
+        };
+
+        loadChatWidgetScript(chatConfig, targetChanged).catch((error) => {
             console.error('❌ [PayPal Invoice Chat] Widget bootstrap failed:', error);
         });
 
         return () => {
-            delete window.HFChatConfig;
             clearChatTargets();
         };
     }, [customerName, shippingData.email, widgetOrderId, orderTotal, isMobileViewport, isUnclaimed]);
