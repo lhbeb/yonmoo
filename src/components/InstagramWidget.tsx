@@ -33,7 +33,7 @@ const InstagramWidget: React.FC = () => {
 
           {/* Profile Info */}
           <div className="flex-grow">
-            <h3 className="font-bold text-[#262626] text-xl mb-1">@helloyonmoo</h3>
+            <h3 className="font-bold text-[#262626] text-xl mb-1">@helloyomnoo</h3>
             <p className="text-gray-600 text-sm mb-3">Yomnoo • Shopping &amp; retail</p>
 
             {/* Statistics */}
@@ -56,7 +56,7 @@ const InstagramWidget: React.FC = () => {
 
         {/* Follow Button */}
         <a
-          href="https://instagram.com/helloyonmoo"
+          href="https://instagram.com/helloyomnoo"
           target="_blank"
           rel="noopener noreferrer"
           onClick={handleInstagramClick}

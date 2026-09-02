@@ -72,15 +72,15 @@ const Footer = () => {
               </div>
               <div className="pt-3">
                 <a
-                  href="https://instagram.com/helloyonmoo"
+                  href="https://instagram.com/helloyomnoo"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleInstagramClick}
                   className="inline-flex items-center gap-2 rounded-lg bg-white/10 px-3.5 py-2 text-sm font-medium text-white hover:bg-white/15 hover:text-[#C4B5FD] transition-all duration-300 border border-white/10"
-                  aria-label="Follow @helloyonmoo on Instagram"
+                  aria-label="Follow @helloyomnoo on Instagram"
                 >
                   <Instagram className="h-4 w-4 text-[#C4B5FD]" />
-                  <span>@helloyonmoo</span>
+                  <span>@helloyomnoo</span>
                 </a>
               </div>
             </div>

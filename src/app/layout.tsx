@@ -164,7 +164,7 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
                 "sameAs": [
                   "https://twitter.com/Yomnoo",
                   "https://facebook.com/Yomnoo",
-                  "https://instagram.com/helloyonmoo"
+                  "https://instagram.com/helloyomnoo"
                 ],
                 "contactPoint": [
                   {

@@ -36,7 +36,7 @@ const InstagramSection: React.FC = () => {
 
                 {/* Profile Details */}
                 <div className="flex-grow">
-                  <h3 className="font-bold text-[#262626] text-lg sm:text-xl mb-0.5">@helloyonmoo</h3>
+                  <h3 className="font-bold text-[#262626] text-lg sm:text-xl mb-0.5">@helloyomnoo</h3>
                   <div className="flex items-center gap-2 text-xs sm:text-sm text-gray-500 mb-2">
                     <span className="font-medium text-gray-700">Yomnoo</span>
                     <span>•</span>
@@ -64,7 +64,7 @@ const InstagramSection: React.FC = () => {
               {/* Follow Us Button */}
               <div className="flex-shrink-0">
                 <a
-                  href="https://instagram.com/helloyonmoo"
+                  href="https://instagram.com/helloyomnoo"
                   target="_blank"
                   rel="noopener noreferrer"
                   onClick={handleInstagramClick}
