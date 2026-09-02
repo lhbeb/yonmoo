@@ -78,14 +78,14 @@ function loadChatWidgetScript(config: Record<string, string>, forceReload: boole
         script.async = true;
         
         // Apply the new data attributes
-        script.dataset.chatUrl = config.chatUrl;
         script.dataset.target = config.target;
+        script.dataset.color = config.color;
         script.dataset.customerName = config.customerName;
         script.dataset.customerEmail = config.customerEmail;
         script.dataset.orderId = config.orderId;
         script.dataset.orderTotal = config.orderTotal;
-        script.dataset.welcomeMessage = config.welcomeMessage;
-        script.dataset.color = config.color;
+        script.dataset.itemName = config.itemName;
+        script.dataset.address = config.address;
 
         script.onload = () => {
             script.dataset.loaded = 'true';
@@ -198,14 +198,14 @@ export default function PaypalInvoiceConfirmation({
         }
 
         const chatConfig = {
-            chatUrl: 'https://chatapppay-rust.vercel.app',
             target: targetId,
+            color: '#050a30', // Yomnoo branding color
             customerName,
             customerEmail: shippingData.email,
             orderId: widgetOrderId,
             orderTotal: orderTotal,
-            welcomeMessage: `Hi ${customerName}, your order ${widgetOrderId} is pending payment. Need help?`,
-            color: '#16033d', // Yomnoo branding color
+            itemName: product.title,
+            address,
         };
 
         loadChatWidgetScript(chatConfig, targetChanged).catch((error) => {
